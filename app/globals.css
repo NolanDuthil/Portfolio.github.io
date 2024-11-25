@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary colors */
+  --black: #01080E;
+  --background: #011627;
+  --background2: #011221;
+
+  /* Secondary colors */
+  --gray: #607B96;
+  --green: #3C9D93;
+  --violet: #4D5BCE;
+  --white: #FFFFFF;
+
+  /* Accent colors */
+  --orange: #FEA55F;
+  --light-green: #43D9AD;
+  --light-red: #E99287;
+  --pink: #C98BDF;
+
+  /* Lines color */
+  --line: #1E2D3D;
+
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #01080E;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
